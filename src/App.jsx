@@ -6,7 +6,7 @@ import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn";
 import ImageModal from "./components/ImageModal/ImageModal";
 
 import { useState, useEffect, useRef } from "react";
-import getImages from "./js/unsplash-api";
+import getImages from "./images-api";
 import toast from "react-hot-toast";
 
 function App() {
